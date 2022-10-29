@@ -34,6 +34,7 @@
 
 
 RussianStandartBot - scr - main - java - io  - pro3ct - service - TelegramBot
+
 После создания проекта и подключения нужных нам библиотек, мы создаём класс TelergamBot. Напоминаю, 
 что класс должен расширяться и реализовать все необходимые методы TelegramLongPollingBot
 
