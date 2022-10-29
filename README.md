@@ -37,24 +37,26 @@ RussianStandartBot - scr - main - java - io  - pro3ct - service - TelegramBot
 После создания проекта и подключения нужных нам библиотек, мы создаём класс TelergamBot. Напоминаю, 
 что класс должен расширяться и реализовать все необходимые методы TelegramLongPollingBot
 
-import org.telegram.telegrambots.api.methods.send.SendMessage;
-import org.telegram.telegrambots.api.objects.Update;
-import org.telegram.telegrambots.bots.TelegramLongPollingBot;
-import org.telegram.telegrambots.exceptions.TelegramApiException;
-
-public class TelegramBot extends TelegramLongPollingBot {
+    
+    import org.telegram.telegrambots.api.methods.send.SendMessage;
+    import org.telegram.telegrambots.api.objects.Update;
+    import org.telegram.telegrambots.bots.TelegramLongPollingBot;
+    import org.telegram.telegrambots.exceptions.TelegramApiException;
+    
+    public class TelergamBot extends TelegramLongPollingBot {
+    
     @Override
     public void onUpdateReceived(Update update) {
-        
     }
-
+   
     @Override
-    public String getBotUsername() 
+    public String getBotUsername() {
         return null;
     }
 
     @Override
-    public String getBotToken() {     
+    public String getBotToken() {      
         return null;
     }
-}
+    }
+
