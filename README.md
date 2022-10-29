@@ -1,4 +1,30 @@
 # telegram-bot-java-spring-boot
-1. Шаг установка библиотеки:
+При создании приложения, я использовал:
+
+1. IntelliJ IDEA.
+2. Maven.
+
+Установка библиотеки 
+
 Использование MAVEN: 
-вапрп
+
+        <dependency>
+			<groupId>org.telegram</groupId>
+			<artifactId>telegrambots</artifactId>
+			<version>${telegram.version}</version>
+		</dependency>
+        
+        
+        <dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+        
+        
+        <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+        
+        
+        
